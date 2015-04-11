@@ -5,7 +5,7 @@ This object-cache.php file can will make the original Memcached drop-in by Ryan 
 
 Memcachier has built a clever authentification system which increases the Memcache instance's data safety, without requiring the more recent ALSL authentification protocol. This was handy for me since I had some system which were still running old PHP libraries.
 
-in object-cache.php, yhe modification is trivial. Right after the initial connection ->addserver(), the PHP code needs to send the credential with 
+in object-cache.php, the modification is trivial. Right after the initial connection ->addserver(), the PHP code needs to send the credential with 
 
 $this->mc[$bucket]->set(MEMCACHIER_USER, MEMCACHIER_PASSWORD);
 
