@@ -1,5 +1,7 @@
 # memcachier
-Wordpress object-cache.php drop-in for Memcachier over plain Memcache protocol
+Wordpress object-cache.php drop-in for Memcachier over plain Memcache protocol. 
+
+It should be copied into /wp-content/
 
 This object-cache.php file can will make the original Memcached drop-in by Ryan Boren, Denis de Bernardy and Matt Martz work with Memcachier.com's Memcache-as-a-service product.
 
